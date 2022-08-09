@@ -1,20 +1,13 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This Project is the primary entrance to the web application that utilizes the API to display information for our end user
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This code WILL NOT be runnable as is due to a library configuration that is currently only available in this applications primary Azure Cloud residence. Once the package can be introduced to Nuget, it can become usable. 
+
+If you did want to run this locally, you would need to remove the Nuget reference to the SVTF API and convert it to a local reference and run both this web app and the API simultaneously.
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+TESTS NOT CURRENTLY IMPLEMENTED
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+This code is moved to GitHub for the purposes of Read Only, if you would like to know more or contribute, please reach out to me!
