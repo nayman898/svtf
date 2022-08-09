@@ -1,20 +1,5 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project is an N-Tiered architected application with the design implementation to support a replaceable front end. Utilizing libraries, project references and Dependency Injection this application can have it's access point easily changed from any of the available methods supported in C# by simply replacing one project, and wiring the rest back up through project references and method calls. This allows a quick and easy transformation from on-prem to cloud to serverless applications.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+This application WILL NOT run completely locally due to it requiring a Database. The steps to produce that database and run it can be found in the DB folder of this repo. You will need to have the DB running, and this application running to access it's endpoints through Swagger.
